@@ -2,6 +2,12 @@
 
 Getting html from page of localhost then validate the code.  
 
+## usage
+
+```bash
+validate-page --port=8000 --path=/any/path
+```
+
 ## Options
 
 It's able to pass options via command line arguments.
