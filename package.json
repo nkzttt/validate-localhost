@@ -1,0 +1,23 @@
+{
+  "name": "validate-page",
+  "version": "1.0.0",
+  "description": "validating html on page",
+  "engines": {
+    "node": ">=7.6"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "validate"
+  ],
+  "author": "nkzttt",
+  "license": "MIT",
+  "dependencies": {
+    "html-validator": "^3.1.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
