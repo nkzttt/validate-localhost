@@ -5,7 +5,7 @@ Getting html from page of localhost then validate the code.
 ## usage
 
 ```bash
-validate-page --port=8000 --path=/any/path
+validate-localhost --port=8000 --path=/any/path
 ```
 
 ## Options
