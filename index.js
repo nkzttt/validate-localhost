@@ -12,11 +12,14 @@ const UA = {
   // set variables
   const protocol = argv.secure ? 'https' : 'http';
   const port = argv.port || '3000';
+  const path = argv.path || '/';
   const ua = argv.pc ? UA.PC : argv.sp ? UA.SP : argv.tb ? UA.TB : UA.PC;
 
   // trying to get html
   const requestOptions = {
-    uri: `${protocol}://localhost:${port}`,
+    uri: path,
+    baseUrl: `${protocol}://localhost:${port}`,
+    method: 'GET',
     headers: {
       'User-Agent': ua
     }
