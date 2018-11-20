@@ -1,12 +1,12 @@
 {
-  "name": "validate-page",
+  "name": "validate-localhost",
   "version": "0.0.1",
   "description": "validating html on page",
   "engines": {
     "node": ">=7.6"
   },
   "bin": {
-    "validate-page": "./bin/validate.js"
+    "validate-localhost": "./bin/validate.js"
   },
   "main": "index.js",
   "scripts": {
