@@ -34,7 +34,7 @@ module.exports = options => {
     // trying to call validator
     const validationOptions = {
       data: html,
-      format: 'text'
+      format: 'json'
     };
     let result;
     try {
